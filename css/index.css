@@ -1,23 +1,30 @@
 *{
     padding: 0;
-    margin: 0px auto; 
-    list-style: none;
+    margin: 0 auto; 
     text-decoration: none;
-    font-size: 8px;
     font-family: 'Short Stack', cursive;
+    font-size: 10px;
+    color: rgb(13, 133, 177);
 }
+h1{  
+    font-size: 4rem;}
+h2{
+    font-size: 2.5rem;}
+h3{
+    font-size: 2rem;}
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 2%;}
 
-header{
-
+.wrapper{
+    width: 80%;
     text-align: center;
-    font-family: 'Short Stack', cursive;
-    width: 70%;
 }
 
 #title {
     font-size: 7rem;
-    color: rgb(13, 133, 177);
-    font-family: 'Short Stack', cursive;
+    
     margin: 3% ;
 }
 
@@ -28,8 +35,6 @@ header{
 
 #subtitle em{
     font-size: 4rem;
-    color: rgb(13, 133, 177);
-    font-family: 'Short Stack', cursive;
 }
 
 #logo{
@@ -47,20 +52,20 @@ nav{
     border-radius: 50px 15px;
 }
 
-nav ul{
-    
+nav ul{  
     text-align: center;
-
 }
+
+
 nav ul li{
-    display: inline;
-    margin:2%;
+    display: flex;
+    align-items: center ;
     justify-content: space-evenly;
     line-height: 9rem;
+    margin:2%;
 }
 
-nav ul li a{
-    
+nav ul li a{    
     color: white;
     font-size: 4rem;
     padding: 2rem 1rem;
@@ -72,6 +77,32 @@ a:hover{
     background:rgb(44, 83, 97);
     transition: 1s;   
 }
+#intro{
+    text-align: center;
+    margin: 5% 0% 10% 0%;
+    font-size: 2rem;
+    color: rgb(13, 133, 177);
+    font-family: 'Short Stack', cursive;
+}
+
+footer{
+    width: 50%;
+ 
+        
+}
+footer p{
+    display:inline;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: left;
+    
+}
+footer img{
+    height: 5rem;
+    vertical-align: text-top;
+}
+
 
 /* MEDIA QUARIES */
 
@@ -106,6 +137,7 @@ nav ul li a{
     }
 }
 
+
 @media screen and (min-width:380px){
     #title {
         font-size: 5rem;
@@ -131,3 +163,4 @@ nav ul li a{
         padding: 1rem 0.5rem;
     }
 }
+/* Home */
